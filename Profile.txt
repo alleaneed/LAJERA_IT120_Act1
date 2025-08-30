@@ -5,3 +5,10 @@ Gender: Female
 Age: 19
 Birthday: November 19,2005
 Contacts: 09941028032
+
+Birth of Place: Bayugan City
+Religion: Bible Baptist
+Father's Name: Edgar M. Lajera
+Occupation: Automotive Mechanic
+Mother's Name: Ronelyn S. Lajera
+Occupation: House Wife
