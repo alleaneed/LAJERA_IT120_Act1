@@ -36,10 +36,9 @@ git switch -c LAJERA_B3
 nano Background
 git add Backgrond.txt
 git commit -m "Added extra info to Background"
-git rm Test.py
+rm Test.py
 git commit -m "Remove Test.py in this branch"
 nano Readme.txt
 git add Readme.txt
 git commit -m "Added new info to Readme"
-git push origin YOURLASTNAME_B3
 git checkout master
