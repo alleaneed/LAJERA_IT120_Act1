@@ -46,11 +46,16 @@ git checkout master
 LAJERA_B4~
 git switch -c LAJERA_B4
 ls
+git status
 nano Readme.txt
 git add Readme.txt
 git commit -m "Added new info to Readme"
 git checkout master
-git branch
+
+git checkout LAJERA_B4 -- Readme.txt
+git add Readme.txt
+git commit -m "Update Readme.txt from LAJERA_B4"
+git push origin master
 git remote add origin https://github.com/alleaneed/LAJERA_IT120_Act1.git
 git push -u origin master
 git push origin LAJERA_B1 LAJERA_B2 LAJERA_B3 LAJERA_B4
