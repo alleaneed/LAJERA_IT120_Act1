@@ -47,6 +47,8 @@ LAJERA_B4~
 git switch -c LAJERA_B4
 ls
 git status
+rm Test.py
+git commit -m "Remove Test.py in this branch"
 nano Readme.txt
 git add Readme.txt
 git commit -m "Added new info to Readme"
